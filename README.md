@@ -2,12 +2,18 @@
 
 Static tutorial pages for pinned project links.
 
-## Current Page
+## Current Pages
 
 Use this link in the `fork-skill` repository sidebar:
 
 ```text
 https://leonincs.github.io/SumPages/fork-skill/
+```
+
+Use this link in the `internship-skill` repository sidebar:
+
+```text
+https://leonincs.github.io/SumPages/internship-skill/
 ```
 
 ## Publish

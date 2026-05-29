@@ -1,26 +1,10 @@
 # SumPages
 
-Static redirect hub for project links.
+Static tutorial pages for pinned project links.
 
-## Add Or Update A Link
+## Current Page
 
-Edit `redirects.json`:
-
-```json
-{
-  "slug": "knowledgegraph",
-  "target": "https://github.com/LeoninCS/KnowledgeGraph",
-  "title": "KnowledgeGraph"
-}
-```
-
-Then regenerate redirect pages:
-
-```bash
-node scripts/generate-redirects.mjs
-```
-
-The public link is:
+Use this link in the `fork-skill` repository sidebar:
 
 ```text
 https://leonincs.github.io/SumPages/fork-skill/
@@ -32,5 +16,5 @@ In GitHub:
 
 1. Open `Settings` -> `Pages`.
 2. Set `Source` to `GitHub Actions`.
-3. Open `Actions` and run `Deploy GitHub Pages` if it has not started.
+3. Open `Actions` and run `Deploy GitHub Pages`.
 4. Save.

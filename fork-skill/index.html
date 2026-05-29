@@ -666,14 +666,25 @@ and visible text drift.</pre>
 
           <section id="install">
             <h2>安装</h2>
-            <p class="muted">在 fork-skill 仓库里运行安装脚本，然后在目标前端项目中安装运行依赖。</p>
+            <p class="muted">先克隆 fork-skill 并运行安装脚本，再验证本机 skill 链接，最后在目标前端项目中安装运行依赖。</p>
 
             <div class="code-block">
               <div class="code-head">
                 <span>安装 skill</span>
                 <button class="copy" data-copy="install-skill">Copy</button>
               </div>
-              <pre id="install-skill">node scripts/install.mjs</pre>
+              <pre id="install-skill">git clone https://github.com/LeoninCS/fork-skill.git
+cd fork-skill
+node scripts/install.mjs</pre>
+            </div>
+
+            <div class="code-block" style="margin-top: 14px;">
+              <div class="code-head">
+                <span>验证本机链接</span>
+                <button class="copy" data-copy="verify-skill">Copy</button>
+              </div>
+              <pre id="verify-skill">ls -l ~/.codex/skills/fork-skill
+ls ~/.codex/skills/fork-skill/SKILL.md</pre>
             </div>
 
             <div class="code-block" style="margin-top: 14px;">

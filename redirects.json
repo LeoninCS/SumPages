@@ -1,0 +1,77 @@
+[
+  {
+    "slug": "complik",
+    "target": "https://github.com/LeoninCS/CompliK",
+    "title": "CompliK"
+  },
+  {
+    "slug": "gcfeed",
+    "target": "https://github.com/LeoninCS/feedsysetm_video_hard",
+    "title": "GCFeed"
+  },
+  {
+    "slug": "goclub",
+    "target": "https://github.com/LeoninCS/GoClub",
+    "title": "GoClub"
+  },
+  {
+    "slug": "knowledgegraph",
+    "target": "https://github.com/LeoninCS/KnowledgeGraph",
+    "title": "KnowledgeGraph"
+  },
+  {
+    "slug": "leonincs",
+    "target": "https://github.com/LeoninCS/LeoninCS",
+    "title": "LeoninCS"
+  },
+  {
+    "slug": "sdd-agent-harness",
+    "target": "https://github.com/LeoninCS/SDD-Agent-WorkflowEngine",
+    "title": "SDD Agent Harness"
+  },
+  {
+    "slug": "tokenrouter",
+    "target": "https://github.com/LeoninCS/TokenRouter",
+    "title": "TokenRouter"
+  },
+  {
+    "slug": "tradingsystem",
+    "target": "https://github.com/LeoninCS/TradingSystem",
+    "title": "TradingSystem"
+  },
+  {
+    "slug": "wallpainter",
+    "target": "https://github.com/LeoninCS/WallPainter",
+    "title": "WallPainter"
+  },
+  {
+    "slug": "ai-resume",
+    "target": "https://github.com/LeoninCS/ai-resume",
+    "title": "AI Resume"
+  },
+  {
+    "slug": "feedsystem-video-go",
+    "target": "https://github.com/LeoninCS/feedsystem_video_go",
+    "title": "FeedSystem Video Go"
+  },
+  {
+    "slug": "fork-skill",
+    "target": "https://github.com/LeoninCS/fork-skill",
+    "title": "Fork Skill"
+  },
+  {
+    "slug": "internship-skill",
+    "target": "https://github.com/LeoninCS/internship-skill",
+    "title": "Internship Skill"
+  },
+  {
+    "slug": "sealos-state-metrics",
+    "target": "https://github.com/LeoninCS/sealos-state-metrics",
+    "title": "Sealos State Metrics"
+  },
+  {
+    "slug": "self-introduction",
+    "target": "https://github.com/LeoninCS/self-introduction",
+    "title": "Self Introduction"
+  }
+]

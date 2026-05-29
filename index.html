@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>SumPages</title>
+    <script>
+      (async () => {
+        const base = "/SumPages/";
+        const path = location.pathname.startsWith(base)
+          ? location.pathname.slice(base.length)
+          : location.pathname.replace(/^\//, "");
+        const slug = path.split("/").filter(Boolean)[0] || new URLSearchParams(location.search).get("to");
+
+        if (!slug) return;
+
+        const response = await fetch(base + "redirects.json", { cache: "no-store" });
+        const redirects = await response.json();
+        const match = redirects.find((item) => item.slug === slug);
+
+        if (match) {
+          location.replace(match.target);
+        }
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
